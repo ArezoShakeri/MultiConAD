@@ -225,7 +225,7 @@ class CHACollection(Collection):
 
   
 
-# Fot trancribed audio data
+
 
 
 path_to_cha_files =  "path_to_cha_files" # path to the folder containing .cha files
