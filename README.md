@@ -20,10 +20,10 @@ Scripts for gathering and structuring data from **16 different datasets** into a
 
 ### **3. Text Preprocessing**  
 Scripts for **language-specific text cleaning** to ensure consistency:  
-- `text_cleaning_Chinese.py` – Combining all **Chinese** datasets and preprocessing text and splitting to train and test sets.  
-- `text_cleaning_English.py` – Combining all **English** datasets and preprocessing text and splitting to train and test sets. 
-- `text_cleaning_Greek.py` – Combining all **Greek** datasets and preprocessing text and splitting to train and test sets. 
-- `text_cleaning_Spanish.py` – Combining all **Spanish** datasets and preprocessing text and splitting to train and test sets. 
+- `text_cleaning_Chinese.py` – Combining all **Chinese** datasets and preprocessing text and splitting to train and test sets.  (NCMMSC2021_AD_Competition,Chinese-predictive challenge_iFlytek, Taukdial)
+- `text_cleaning_English.py` – Combining all **English** datasets and preprocessing text and splitting to train and test sets. (Pitt, Lu, Baycrest, VAS, Kempler, WLS, Delware, taukdial)
+- `text_cleaning_Greek.py` – Combining all **Greek** datasets and preprocessing text and splitting to train and test sets. (ADReSS-M, Ds3, Ds5, Ds7)
+- `text_cleaning_Spanish.py` – Combining all **Spanish** datasets and preprocessing text and splitting to train and test sets. (Ivanova, PerLA)
 
 ### **4. Translation**  
 Scripts for translating non-English datasets into **English** for multilingual experiments:  
