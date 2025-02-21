@@ -82,20 +82,20 @@ Scripts for **binary and multiclass classification tasks** using different text 
 ### **Step 4: Translate Non-English Data**  
 1. Translate **Greek, Spanish, and Chinese** datasets into English:  
    ```bash
-   python translation_all_language.py
+   python translation_all_language.py --directory_to_input_data=${1} --directory_to_output_translated=${2} --source_language=${3}
    ```  
 
 ### **Step 5: Train Classification Models**  
 #### **TF-IDF Classifier**  
 1. Train and evaluate using **TF-IDF**:  
    ```bash
-   python TF_IDF_classifier.py
+   python TF_IDF_classifier.py --test_language=${1} --task=${2}  --translated=${3}
    ```  
 
 #### **E5 Large Model Classifier**  
 1. Train and evaluate using **E5 Large embeddings**:  
    ```bash
-   python e5_large_classifier.py
+   python e5_large_classifier.py --test_language=${1} --task=${2}  --translated=${3}
    ```  
 
 
