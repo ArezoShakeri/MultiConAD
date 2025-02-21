@@ -30,22 +30,13 @@ def remove_english_rows(df):
 
 
 def preprocess_text(text):
-
-    # Remove all 
+ 
     text = text.replace('//', '').replace('/', '')
-    # Remove all '&' characters
     #text = text.replace('&', '')
-
-    # Remove & and the following word
     text = re.sub(r'\s*&\w+', '', text).strip()
-    
-    # Remove text within square brackets
     text = re.sub(r'\[.*?\]', '', text)
-    
     # Remove "Doctor: " and "Patient: "
     text = text.replace('Doctor:', '').replace('Patient:', '')
-    
-    # Remove consecutive spaces
     text = re.sub(r'\s+', ' ', text).strip()
     
     return text
