@@ -15,7 +15,7 @@ test_ch_collection.py: This is a sample script to test the output of the normali
 Preprocessing_text/text_cleaning_Chinese.py, text_cleaning_English.py, text_cleaning_Greek.py, text_cleaning_Spanish.py: Used to preprocess text in each language.
 Translation/translation_all_language.py: Create a translation column for all non-English datasets and add the translation.
 
-
+Translation/translation_all_language.py: Translating all non-English data to English using GPT4.
 
 
 
