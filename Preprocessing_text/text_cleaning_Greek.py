@@ -24,7 +24,7 @@ combiner.combine()
 
 
 
-
+# Preprocessing text transcribed by Whisper large v3
 def preprocess_text_audio_data(text, TF_IDF= False):
     text = re.sub(r'Speaker \d+:', '', text).strip()
     text = re.sub(r'\.{2,}', '', text)
