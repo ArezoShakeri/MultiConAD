@@ -19,8 +19,6 @@ args_slurm = parser.parse_args()
 path_to_data_folder = "path_to_data_folder"
 train_en = pd.read_json(path_to_data_folder + "/train_en_AD_Dem_info.jsonl", lines=True)
 test_en = pd.read_json(path_to_data_folder + "/test_en_AD_Dem_info.jsonl", lines=True)
-
-
 train_spa = pd.read_json(path_to_data_folder + "/translated_train_df_spa.jsonl", lines=True)
 train_gr = pd.read_json(path_to_data_folder+"/translated_train_gr.jsonl", lines=True)
 train_cha = pd.read_json(path_to_data_folder + "/translated_train_cha.jsonl", lines=True)
