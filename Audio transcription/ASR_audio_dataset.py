@@ -25,7 +25,7 @@ for filename in tqdm(os.listdir(directory_path)):
             detected_language = result['language']
             transcription = result['text']
             
-            # Only append if the detected language is 'en' or 'zh'
+            # Only append if the detected language is 'en' or 'zh' or 'el'
             if detected_language in ['en', 'zh','el']:
                 results.append({
                     "file_name": os.path.splitext(filename)[0],
