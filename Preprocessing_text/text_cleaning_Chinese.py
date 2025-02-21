@@ -21,7 +21,7 @@ combiner.combine()
 
 
 def remove_english_rows(df):
-    # Filter out rows where the 'language' field is 'en'
+    # Filter out rows where the 'language' field is 'en' (Taukdial dataset)
     df_filtered = df[df['Languages'] != 'en']
     return df_filtered
 
