@@ -8,15 +8,15 @@ from collection import JSONLCombiner
 
 # Pitt, Lu, Baycrest, VAS, Kempler, WLS, Delware, taukdial_English_train, taukdial_English_test
 input_files = [
-    "/kaggle/input/english-data/Pitt.jsonl",
-    "/kaggle/input/english-data/Lu.jsonl",
-    "/kaggle/input/english-data/Baycrest.jsonl",
-    "/kaggle/input/english-data/VAS.jsonl",
-    "/kaggle/input/english-data/Kempler.jsonl",
-    "/kaggle/input/english-data/WLS.jsonl",
-    "/kaggle/input/english-data/Delware.jsonl",
-    "/kaggle/input/english-data/taukdial_English_train.jsonl",
-    "/kaggle/input/english-data/taukdial_English_test.jsonl"
+    "/pathe/to/Pitt.jsonl",
+    "/pathe/to/Lu.jsonl",
+    "/pathe/to/Baycrest.jsonl",
+    "/pathe/to/VAS.jsonl",
+    "/pathe/to/Kempler.jsonl",
+    "/pathe/to/WLS.jsonl",
+    "/pathe/to/Delware.jsonl",
+    "/pathe/to/taukdial_English_train.jsonl",
+    "/pathe/to//taukdial_English_test.jsonl"
 ]
 output_directory = 'path_to_output_directory'
 output_filename = 'combined_jsonl_English.jsonl'
@@ -29,7 +29,7 @@ English_df= pd.read_json(output_directory + output_filename, lines=True)
 
 
 
-# Remove chinese transcript from Taukdial
+# Remove Chinese transcript from Taukdial
 def remove_zh_language_rows(df):
     return df[df['Languages'] != 'zh']
 
