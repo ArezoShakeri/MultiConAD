@@ -12,7 +12,7 @@ import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument('--test_language', required=True)
 parser.add_argument('--task', required=True)
-parser.add_argument('--translated', required=True)
+parser.add_argument('--translated', required=True) # use "yes", if you want to the analysis using the English translated data 
 
 args_slurm = parser.parse_args()
 
