@@ -109,5 +109,16 @@ The experiments are conducted in three different linguistic setups:
 ### **Objectives**  
 - Compare **TF-IDF** vs. **E5 Large embeddings** for text classification.  
 - Analyze the impact of **monolingual, multilingual, and translated** settings on classification accuracy.  
-- Determine whether **translation improves classification performance** in multilingual scenarios.  
+- Determine whether **translation improves classification performance** in multilingual scenarios.
+
+### **Citation**
+@misc{shakeri2025multiconadunifiedmultilingualconversational,
+      title={MultiConAD: A Unified Multilingual Conversational Dataset for Early Alzheimer's Detection}, 
+      author={Arezo Shakeri and Mina Farmanbar and Krisztian Balog},
+      year={2025},
+      eprint={2502.19208},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2502.19208}, 
+}
 
