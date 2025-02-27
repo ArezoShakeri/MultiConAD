@@ -112,6 +112,7 @@ The experiments are conducted in three different linguistic setups:
 - Determine whether **translation improves classification performance** in multilingual scenarios.
 
 ### **Citation**
+```bash
 @misc{shakeri2025multiconadunifiedmultilingualconversational,
       title={MultiConAD: A Unified Multilingual Conversational Dataset for Early Alzheimer's Detection}, 
       author={Arezo Shakeri and Mina Farmanbar and Krisztian Balog},
@@ -121,4 +122,4 @@ The experiments are conducted in three different linguistic setups:
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2502.19208}, 
 }
-
+   ```  
