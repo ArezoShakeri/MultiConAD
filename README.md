@@ -100,7 +100,7 @@ Scripts for **binary and multiclass classification tasks** using different text 
    ```bash
    python TF_IDF_classifier.py --test_language=${1} --task=${2}  --translated=${3}
    ```  
-#### **Sample command to train and test model on the English-translated version of the Greek test set using TF-IDF technique**:
+#### **Sample command to train and test model on the English-translated version of the Greek test set using TF-IDF technique binary classification**:
 
 ```bash
    python TF_IDF_classifier.py --test_language="gr" --task="binary"  --translated="yes"
@@ -110,7 +110,7 @@ Scripts for **binary and multiclass classification tasks** using different text 
    ```bash
    python e5_large_classifier.py --test_language=${1} --task=${2}  --translated=${3}
    ```  
-#### **Sample command to train and test the model on the English-translated version of the Greek test set using the e5 technique**:
+#### **Sample command to train and test the model on the English-translated version of the Greek test set using the e5 LLM for binary classification**:
 
 ```bash
    python e5_large_classifier.py --test_language="gr" --task="binary"  --translated="yes"
