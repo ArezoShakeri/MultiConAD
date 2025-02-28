@@ -113,7 +113,7 @@ The experiments are conducted in three different linguistic setups:
 
 
 
-### **Citation**
+## **Citation**
 ```bash
 @misc{shakeri2025multiconadunifiedmultilingualconversational,
       title={MultiConAD: A Unified Multilingual Conversational Dataset for Early Alzheimer's Detection}, 
@@ -126,5 +126,5 @@ The experiments are conducted in three different linguistic setups:
 }
    ```
 
-### **Contact**
+## **Contact**
 arezo.shakeri@uis.no
