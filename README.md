@@ -1,5 +1,8 @@
 # **MultiConAD: A Unified Multilingual Conversational Dataset for Early Alzheimer’s Detection.**  
 
+This repository provides the complete codebase and data processing pipeline for the following submission: 
+https://arxiv.org/abs/2502.19208
+
 It includes scripts for **data collection, preprocessing, transcription, translation, and classification experiments** using both **TF-IDF and E5 Large models** across different linguistic settings.  
 
 ## **Repository Structure**  
