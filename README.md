@@ -111,10 +111,7 @@ The experiments are conducted in three different linguistic setups:
 2. **Combined-Multilingual:** Training on a dataset containing **multiple original languages**.  
 3. **Combined-Translated:** Training on a dataset where **all text is translated into English**.  
 
-### **Objectives**  
-- Compare **TF-IDF** vs. **E5 Large embeddings** for text classification.  
-- Analyze the impact of **monolingual, multilingual, and translated** settings on classification accuracy.  
-- Determine whether **translation improves classification performance** in multilingual scenarios.
+
 
 ### **Citation**
 ```bash
@@ -127,4 +124,7 @@ The experiments are conducted in three different linguistic setups:
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2502.19208}, 
 }
-   ```  
+   ```
+
+### **Contact**
+arezo.shakeri@uis.no
