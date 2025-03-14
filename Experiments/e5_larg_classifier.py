@@ -53,7 +53,7 @@ if args_slurm.translated== "yes":
 def extract_embeddings(df, text_column, label_column):
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     model = SentenceTransformer('intfloat/multilingual-e5-large').to(device)
-    texts = df[text_column].tolist()
+    texts = ["passage: " + text for text in df[text_column].tolist()]
     labels = df[label_column].tolist()
     embeddings = model.encode(texts, normalize_embeddings=True,device=device)
     return np.vstack(embeddings), np.array(labels)
